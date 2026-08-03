@@ -6,11 +6,12 @@
 
     <script>
 
-        jogos = ["Minecraft", "Cuphead", "Oxenfree", "Roblox"]
-        achar = jogos.find(function(jogo){
-            return jogo == "Minecraft"
-        })
-        
+        var jogos = ["Minecraft", "Roblox", "Free Fire", "Valorant"]
+        if (jogos.includes("Minecraft")) {
+            console.log("Minecraft está na lista.")
+        } else {
+            console.log("Minecraft não está na lista.")
+        }
 
     </script>
 </head>

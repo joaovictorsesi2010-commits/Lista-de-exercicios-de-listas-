@@ -6,7 +6,15 @@
 
     <script>
 
-
+        numeros = [1, 22, 4, 50, 61, 3, 0, 9, 11]
+        numeros2 = []
+        alert("Lista normal: " + numeros)
+        numeros.forEach(function(numero) {
+            if (numero > 10) {
+            numeros2.push(numero)
+            }
+        })
+        alert("Lista só com número maior que 10: " + numeros2)
 
     </script>
 </head>
